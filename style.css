@@ -1,0 +1,53 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    color: green;
+}
+
+#navbuttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.pages:hover{
+    color: green;
+}
+
+.pages{
+    width: 120px;
+    height: 40px;
+    font-size: 0.67em;
+    border: none;
+}
+
+
+#title, #chart1, #Year, #chart2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#title{
+    font-size: 2em;
+}
+
+#error{
+    display: none;
+    color: red;
+}
+
+#Year{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.line {
+    fill: none; /* Ensure the paths are not filled */
+    stroke: steelblue; /* Set line color */
+    stroke-width: 2; /* Line thickness */
+}
